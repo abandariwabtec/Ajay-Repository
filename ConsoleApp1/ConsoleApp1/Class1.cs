@@ -8,11 +8,9 @@ namespace ConsoleApp1
 {
     class Class1
     {
-        public int add()
+        public int add(int x, int y)
         {
-            int x = 2;
-            int y = 3;
-            return x + y;
+           return x + y;
         }
     }
 }
